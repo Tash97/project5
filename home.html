@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet"  href="gym.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="navbar_container">
+        <a href="home.html"><div id="title_container">
+            <h1>Gym Fitness</h1>
+        </div></a>
+        <div id="navbar_logo_container">
+            <a href="home.html"><img id="navbar_logo" alt="logo" src="images/logo.png"/></a>
+        </div>
+        <div class="navbar_item_container">
+            <h1><small><a href="about.html">About</a></small></h1>
+        </div>
+        <div class="navbar_item_container">
+            <h1><small><a id="sign_in_link" onclick="signout()" href="sign-in.html">Sign-in</a></small></h1>
+        </div>
+        <div class="navbar_item_container">
+            <h1><small><a href="home.html">Home</a></small></h1>
+        </div>
+        <div class="navbar_item_container">
+            <h1><small>Memberships</small></h1>
+        </div>
+    </div>
+    <div id="updates_and_info">
+        <div id="backwards" class="d-flex justify-content-center align-items-center"><i class="fa fa-angle-left"></i></div>
+        <div id="forwards" class="d-flex justify-content-center align-items-center"><i class="fa fa-angle-right"></i></div>
+        <div class="updates" id="updates_1">
+            <h1>
+                Climbing 101
+            </h1>
+            <p>
+                Rock climbing is an increasingly popular activity that is open to people of all ability levels and one of the fastest growing sports in the country. It is a fun and exciting way to engage in an active type of fitness. Where going to an exercise gym is viewed as "work", climbing is so enjoyable that you forget you are getting in a good workout too.
+            </p>
+        </div>
+        <div class="updates" id="updates_2">
+            <h1>
+                Bouldering
+            </h1>
+            <p>
+                Bouldering is the simplest type of climbing. It involves climbing lower to the ground than you typically would when using a rope. Bouldering tends to be a more powerful and sometimes dynamic type of climbing in order to present a challenge in a short distance. Many people like bouldering because they can do it without a partner. Although lower to the ground, bouldering is no less dangerous than any other type of climbing because there is no rope to catch you, only padding on the ground.
+            </p>
+        </div>
+        <div class="updates" id="updates_3">
+            <h1>
+                Auto-Belays
+            </h1>
+            <p>
+                This is our most popular form of climbing! Auto-Belays are one of the two types of rope climbing we have at our facility. If you don't have a partner and still want to climb with the comfort of a rope then this is the best option for you. Simple and efficient, the climber is attached to a lanyard that follows them up the wall and lowers them automatically. Everyone who comes to our facility will be instructed on proper use of these devices. They allow the climber to maximize their experience and time on the wall.
+            </p>
+        </div>
+        <div class="updates" id="updates_4">
+            <h1>
+                Top Roping
+            </h1>
+            <p>
+                Top Roping is one of the two types of rope climbing at Gym Fitness and requires at least two participants: the climber and the belayer. This system is more advanced than our Auto-Belays and requires a class in order to be used. The rope is suspended from an anchor at the "top" of a wall. One end is attached to the climber, the other end to the belayer. The belayer controls the rope as the climber ascends the wall. In the event of a fall, the belayer stops the climber’s descent. When the climber wishes to come down, either at the top or partway up the wall, the belayer lowers the climber back to the ground. If two people are climbing, they take turns belaying for each other. For those wishing to not climb, they may still belay for another climber.
+            </p>
+        </div>
+    </div> 
+    <div id="general">
+    <div id="about_piece">
+        <h1 class="pb-3">About</h1>
+        Gym Fitness is a local rock climbing gym dedicated to providing the ultimate indoor rock climbing experience for climbers of all skill levels. Our state-of-the-art facility offers a range of challenging climbs for beginners, intermediate, and advanced climbers alike. We pride ourselves on creating a welcoming and inclusive environment that encourages our guests to push their limits in a safe and controlled setting. In addition to our top-notch climbing walls, we offer professional instruction, equipment rentals, youth programs, fitness classes, and more. Whether you're an experienced climber looking for a new challenge or a first-time visitor looking to try something new, Gym Fitness is the perfect destination for your next adventure.
+        <div id="button_container" class="d-inline-block w-100">
+            <a href="about.html"><button type="button" class="btn w-100">Learn More</button></a>
+        </div>
+    </div>
+    <hr id="line" class="d-inline-block m-0 p-0 position-relative">
+    <div id="equipment_rentals_container_container" class="d-inline-flex position-relative">
+    <div id="equipment_rentals_container" class="container p-4 pt-0 mt-5 mb-5 pb-0" >
+        <h1 class="text-center p-4">Equipment Rentals</h1>
+            <div id="equipment" class="row pb-3 mb-3 border-bottom">
+                <img class="col-3" alt="backpack" src="images/backpack.png"/>
+                <div class="col-9 d-flex justify-text-start align-self-end ps-0">Backpacks</div>
+            </div>
+            <div id="equipment" class="row pb-3 mb-3 border-bottom">
+                <img class="col-3 " alt="backpack" src="images/helmet.png"/>
+                <div class="col-9 d-flex justify-text-start align-self-end ps-0">Helmets</div>
+            </div>
+            <div id="equipment" class="row pb-3 mb-3 border-bottom">
+                <img class="col-3 "alt="backpack" src="images/harness.png"/>
+                <div class="col-9 d-flex justify-text-start align-self-end ps-0" >Harnesses</div>
+            </div>
+            <div id="equipment" class="row p-0 pb-3 border-bottom">
+                <img class="col-3" alt="backpack" src="images/shoes.png"/>
+                <div class="col-9 d-flex justify-text-start align-self-end ps-0">Shoes</div>
+            </div>
+            <div id="equipment_button_container" class="d-flex p-4 w-100"><button class="btn btn-primary w-100">See Full Selection</button></div>
+    </div>
+    </div>
+    <div id="kids_climb_container" class="d-flex flex-column position-relative p-5">
+        <h1 class="pb-3">Check out our youth Programs!</h1>
+        <div class="row flex-nowrap overflow-hidden" id="kids_climb_image_scroll">
+            <img class="col-12" alt="kid_climb_pics" src="images/kids_climb_pic1.png" />
+            <img class="col-12" alt="kid_climb_pics" src="images/kids_climb_pic2.webp" />
+            <img class="col-12" alt="kid_climb_pics" src="images/kids_climb_pic3.png" />
+            <img class="col-12" alt="kid_climb_pics" src="images/kids_climb_pic4.png" />
+            <img class="col-12" alt="kid_climb_pics" src="images/kids_climb_pic5.png" />
+        </div>
+        <div class="pt-5">
+            <button id="youth_button" class="btn btn-primary w-100 ">Learn More</button>
+        </div>
+    </div>
+    <div id="fitness_classes_container" class="d-flex flex-column position-relative p-5">
+        <h1 class="pb-3">Check out our fitness classes!</h1>
+        <div class="row flex-nowrap overflow-hidden" id="fitness_classes_image_scroll">
+            <img class="col-12" alt="fitness_class_pics" src="images/fitness_class_pic1.png" />
+            <img class="col-12" alt="fitness_class_pics" src="images/fitness_class_pic2.webp" />
+            <img class="col-12" alt="fitness_class_pics" src="images/fitness_class_pic3.png" />
+            <img class="col-12" alt="fitness_class_pics" src="images/fitness_class_pic4.png" />
+            <img class="col-12" alt="fitness_class_pics" src="images/fitness_class_pic5.webp" />
+        </div>
+        <div class="pt-5">
+            <button id="class_button" class="btn btn-primary w-100 ">Learn More</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <footer class="d-flex flex-column">
+        <div id="mailing_list" class="d-flex justify-content-end pt-5 ms-auto me-auto">
+            <h1 class="me-auto">Join our mailing list today!</h1>
+            <input class="align-self-end" type="text" placeholder="First Name" id="fname">
+            <input class="align-self-end" type="text" placeholder="Email Address" id="email_box">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+        <div id="contact_info" class="d-flex flex-column">
+            <h4>G.Y.M Fitness LLC</h4>
+            <h4>626 Hoopla Ter, Orlando, FL 32804</h4>
+            <h4>(555)-555-5555</h4>
+        </div>
+        <div id="float_info" class="d-flex position-absolute w-75 justify-content-between">
+            <div id="bottom_logo" class="row w-25 justify-content-center align-items-start">
+                <h1 class="col-12">Gym Fitness</h1>
+                <img class="col-6" alt="logo" src="images/logo.png" />
+            </div>
+            <div id="listicle" class="w-25 d-flex flex-column">
+                <h4>Programs</h4>
+                <h4>Amenities</h4>
+                <h4><a href="about.html">About Us</a></h4>
+                <h4>Membership</h4>
+                <h4>Updates & Offers</h4>
+                <h4>Events</h4>
+                <h4>Contact</h4>
+            </div>
+            <div id="programs" class="w-25">
+                <h1>Programs</h1>
+                <h4>Yoga</h4>
+                <h4>Pilates</h4>
+                <h4>CrossFit</h4>
+                <h4>Spin</h4>
+                <h4>Rock Climbing</h4>
+                <h4>Youth Rock Climbing</h4>
+            </div>
+            <div class="position-absolute" id="social_logos">
+                <a href="https://facebook.com" class="fa fa-facebook-square"></a>
+                <a href="https://instagram.com" class="fa fa-instagram"></a>
+                <a href="https://twitter.com" class="fa fa-twitter-square"></a>
+
+            </div>
+
+        </div>
+    </footer>
+<script src="gym.js"></script></body>
+</html>

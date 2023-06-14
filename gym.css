@@ -1,0 +1,306 @@
+body{
+    background-color: hsl(250 50% 92%);
+}
+#navbar_container{
+    display: flex;
+    background-color: hsl(250 50% 70%);
+    align-items: flex-end;
+    height: 7vh;
+}
+#navbar_container > a{
+ text-decoration: none;   
+ color: black;
+}
+#title_container{
+    align-self: flex-end;
+}
+#title_container > h1{
+    font-size: 3.5em;
+    white-space: nowrap;
+}
+#navbar_logo_container{
+    align-self: flex-end;
+    margin-right: auto;
+    
+}
+#navbar_logo{
+    margin-bottom: .5%;
+    object-fit: cover;
+    width: 7.5%;
+    
+}
+.navbar_item_container{
+    padding-right: 2%;
+}
+.navbar_item_container > h1{
+    font-size: 2em;
+    white-space: nowrap;
+}
+.navbar_item_container > h1 > small > a{
+    text-decoration: none;
+    color: black;
+}
+
+#backwards{
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    background-color: hsl(220 50% 50%);
+    height: 50%;
+    width: 5%;
+}
+#backwards > i{
+    color: hsl(280 50% 95%);
+    font-size: 150px;
+}
+#forwards{ 
+    border-radius: 20px 0 0 20px;
+    left: 95%;
+    position: absolute;
+    background-color: hsl(220 50% 50%);
+    height: 50%;
+    width: 5%;
+}
+#forwards > i{
+    color: hsl(280 50% 95%);
+    font-size: 150px;
+}
+#updates_and_info{
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.updates{
+    color: hsl(220 25% 90%);
+    min-width: 100%;
+    min-height: 50vh;
+    white-space: wrap;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+.updates > p{
+    font-size: 2em;
+}
+#updates_1{
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ),
+        url("images/rock_img_1.png");
+    background-size: 100% auto;
+}
+#updates_2{
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ),
+        url("images/rock_img_3.png");
+    background-size: 100% auto;
+}
+#updates_3{
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ),
+        url("images/rock_img_2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+#updates_4{
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)
+        ),
+        url("images/rock_img_4.png");
+    background-size: 100% auto;
+    background-position: 0% 50%;
+}
+#about_piece{
+    position: relative;
+    background-color: hsl(250 50% 75%);
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 30%;
+    max-width: 30%;
+    top: -5%;
+    left: -9.5%;
+    padding: 2.5%;
+    font-size: 150%;
+}
+
+
+#button_container{
+    white-space: nowrap;
+    margin-top: 5%;
+    align-self: center;
+    justify-content: flex-end;
+}
+#button_container > a > button{
+    color: hsl(280 50% 95%);
+    background-color: hsl(220 50% 50%);
+    border: none;
+    font-size: 100%;
+}
+#button_container > a{
+    text-decoration: none;
+    color: hsl(280 50% 95%);
+}
+
+#equipment_rentals_container_container{
+    max-width: 30%;
+    max-height: 50%;
+    position: relative;
+    left: 10%; 
+    top: 17.5%;   
+}
+#equipment_rentals_container{
+    background-color: hsl(250 50% 75%);
+    border-radius: 10px;
+}
+#equipment > div{
+    font-size: 200%;
+}
+#equipment_button_container > button{
+    background-color: hsl(220 50% 50%);
+    font-size: 150%;
+}
+#line{
+    height: 35vh;
+    width: .5vw;
+    left: -.5%;
+    background-color: hsl(220 50% 50%);
+}
+#kids_climb_container{
+    left: 10%;
+    top: 10%;
+    width: 30%;
+    max-width: 30%;
+    background-color: hsl(250 50% 75%);
+    border-radius: 10px;
+}
+
+#general{
+    background-color: hsl(250 50% 92%);
+    display: block;
+    height: 255vh;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+#youth_button{
+    font-size: 150%;
+    background-color: hsl(220 50% 50%);
+}
+#fitness_classes_container{
+    left: 60.5%;
+    top: 0%;
+    width: 30%;
+    max-width: 30%;
+    background-color: hsl(250 50% 75%);
+    border-radius: 10px;
+}
+#class_button{
+    font-size: 150%;
+    background-color: hsl(220 50% 50%);
+}
+footer{
+    background-color: hsl(250 50% 40%);
+    margin-top: 30%;
+    padding-bottom: 5%;
+}
+#mailing_list{
+    width: 66%;
+    margin-top: 5%;
+    color: hsl(280 50% 95%);
+}
+#mailing_list > input{
+    background-color: hsl(250 50% 40%);
+    width: 20%;
+    margin-right: 2.5%;
+    border: none;
+    border-bottom: 1px solid hsl(280 50% 95%);
+}
+#mailing_list > input:focus{
+    outline: none;
+}
+#mailing_list > input::placeholder{
+    color: hsl(280 50% 95%);
+}
+#mailing_list > button{
+    color: hsl(250 50% 40%);
+    background-color: hsl(280 50% 95%);
+    width: 15%;
+    font-size: 125%;
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+#contact_info{
+    color: hsl(280 50% 95%);
+    margin-left: 17%;
+    margin-top: 2%;
+}
+#float_info{
+    background-color: hsl(250 50% 75%);
+    left: 12.5%;
+    top: 320%;
+    height: 60vh;
+    padding-top: 4%;
+}
+#listicle > h4 > a{
+    text-decoration: none;
+    color: black;
+}
+#bottom_logo > h1{
+    margin-left: 50%;
+}
+#bottom_logo > img{
+    margin-bottom: 100%;
+
+}
+#social_logos{
+    top: 66%;
+    left: 75%;
+}
+#social_logos > a{
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+}
+#sign-in{
+    background-color: hsl(250 50% 40%);
+}
+#sign-in > h1{
+    color: hsl(280 50% 95%);
+}
+#sign-in > a{
+    text-decoration: none;
+    color: hsl(250 50% 40%);
+}
+#sign-in > a > button{
+    font-size: 200%;
+    background-color: hsl(280 50% 95%);
+    color: hsl(250 50% 40%);
+}
+#sign-in > input{
+    background-color: hsl(250 50% 40%);
+    border: none;
+    border-bottom: 1px solid hsl(280 50% 95%);
+}
+#sign-in > input::placeholder{
+    color: hsl(280 50% 95%);
+}
+#sign-in > label{
+    color: hsl(280 50% 95%);
+}
