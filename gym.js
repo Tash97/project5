@@ -51,10 +51,10 @@ document.getElementById("backwards").addEventListener('click', goback);
 let youthscroll = document.getElementById("kids_climb_image_scroll");
 let totalscroll = youthscroll.scrollWidth;
 let onescroll = totalscroll / 5;
-let threeandsumscrolls = onescroll * 3.5;
+let maxscroll = totalscroll - onescroll -20;
 
 function scroller(){
-    if(youthscroll.scrollLeft < threeandsumscrolls ) {
+    if(youthscroll.scrollLeft < maxscroll ) {
         youthscroll.scrollLeft = youthscroll.scrollLeft + onescroll;
     }
     else {
@@ -67,10 +67,10 @@ setInterval(scroller, 5000);
 let fitscroll = document.getElementById("fitness_classes_image_scroll");
 let fittotalscroll = fitscroll.scrollWidth;
 let fitonescroll = fittotalscroll / 5;
-let fitthreeandsumscrolls = fitonescroll * 3.5;
+let fitmaxscroll = fittotalscroll - fitonescroll -20;
 
 function fitscroller(){
-    if(fitscroll.scrollLeft < fitthreeandsumscrolls ) {
+    if(fitscroll.scrollLeft < fitmaxscroll ) {
         fitscroll.scrollLeft = fitscroll.scrollLeft + fitonescroll;
     }
     else {
